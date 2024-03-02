@@ -1,5 +1,6 @@
-import FirstPage from "../components/general/FirstPage";
+import CatalogueTemplate from "../components/catalogue/CatalogueTemplate";
+
 
 export default function Page() {
-  return <FirstPage />
+  return <CatalogueTemplate />
 }

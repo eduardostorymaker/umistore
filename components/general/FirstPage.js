@@ -1,3 +1,5 @@
+import CatalogueTemplate from "../catalogue/CatalogueTemplate";
+
 export default function FirstPage () {
 
     return(
@@ -6,7 +8,7 @@ export default function FirstPage () {
                 Umihogar
             </div>
             <div className="bg-black text-white">
-                Pagina en construcción
+                <CatalogueTemplate />
             </div>
         </div>
     )
