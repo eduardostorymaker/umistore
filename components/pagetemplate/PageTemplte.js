@@ -5,7 +5,7 @@ import Header from "./Header";
 export default function PageTemplate ({ children }) {
 
     return(
-        <div className="h-full w-full grid grid-rows-[80px_calc([_h-full])_100px]">
+        <div className="h-full w-full grid grid-rows-[80px_1fr_100px]">
             <header className="h-full w-full flex">
                 <Header>
 

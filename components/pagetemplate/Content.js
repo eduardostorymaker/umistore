@@ -1,7 +1,7 @@
 export default function Content ({ children }) {
 
     return(
-        <div>
+        <div className="w-full h-full">
             { children }
         </div>
     )
