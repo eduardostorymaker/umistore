@@ -1,7 +1,7 @@
 import CatalogueGroup from "./CatalogueGroup"
 
 const getDataProduct = async () => {
-    const res = await fetch("http://localhost:3030/api/product", {cache: "no-store"})
+    const res = await fetch("http://localhost:3030/api/productweb", {cache: "no-store"})
     const data = await res.json()
 
     return data.data
